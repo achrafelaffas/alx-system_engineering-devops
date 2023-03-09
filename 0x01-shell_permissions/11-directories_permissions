@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -type d -exec chmod +x {} \
+# Set execute permission for all subdirectories in the current directory 
+find . -type d -exec chmod ugo+x {} \;
