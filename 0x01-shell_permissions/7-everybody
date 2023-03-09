@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo+x hell0
+chmod 111 hell0
