@@ -1,3 +1,5 @@
+Blog url : https://medium.com/achrafelaffas/demystifying-the-journey-of-a-web-request-from-url-to-rendered-page-232e79f4bc3a
+
 Demystifying the Journey of a Web Request: From URL to Rendered Page
 
 Have you ever wondered what happens behind the scenes when you type “https://www.google.com” into your browser and hit Enter? The process may seem instantaneous, but beneath the surface, there’s a complex series of steps that unfold to bring you the webpage you requested. Let’s embark on a journey through the layers of the web stack to uncover what goes on behind the scenes.
