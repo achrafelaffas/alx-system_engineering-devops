@@ -1,0 +1,31 @@
+Demystifying the Journey of a Web Request: From URL to Rendered Page
+
+Have you ever wondered what happens behind the scenes when you type “https://www.google.com” into your browser and hit Enter? The process may seem instantaneous, but beneath the surface, there’s a complex series of steps that unfold to bring you the webpage you requested. Let’s embark on a journey through the layers of the web stack to uncover what goes on behind the scenes.
+
+1. DNS Request:
+The journey begins with the Domain Name System (DNS). When you enter a URL like “www.google.com”, your browser first needs to resolve this human-readable domain name into an IP address. It sends a DNS request to a DNS server, which then responds with the corresponding IP address of the server hosting the Google website.
+
+2. TCP/IP:
+With the IP address in hand, your browser initiates a connection using the Transmission Control Protocol (TCP) over the Internet Protocol (IP). TCP ensures reliable and ordered delivery of data packets between your device and the server hosting the website.
+
+3. Firewall:
+As the data packets traverse the internet, they may encounter firewalls, which are security measures designed to monitor and control incoming and outgoing network traffic. Firewalls protect against unauthorized access and potential threats.
+
+4. HTTPS/SSL:
+In the era of heightened cybersecurity concerns, secure communication between your browser and the web server is paramount. This is where HTTPS (Hypertext Transfer Protocol Secure) comes into play. It encrypts the data transmitted between your browser and the server using SSL/TLS (Secure Sockets Layer/Transport Layer Security) protocols, ensuring confidentiality and integrity of the exchanged information.
+
+5. Load-Balancer:
+Large-scale websites like Google often employ load balancers to distribute incoming traffic across multiple servers. Load balancers improve reliability, scalability, and performance by evenly distributing the workload among servers and redirecting traffic in case of server failures or overloads.
+
+6. Web Server:
+Upon reaching the web server, the HTTP request is received and processed. The web server, such as Apache or Nginx, retrieves the requested resources, which may include HTML files, CSS stylesheets, JavaScript files, images, and more.
+
+7. Application Server:
+In dynamic web applications, the web server may need to interact with an application server to process server-side logic. Application servers, like Tomcat or Node.js, execute code written in languages such as PHP, Python, Ruby, or Java, generating dynamic content tailored to the user’s request.
+
+8. Database:
+Many websites rely on databases to store and retrieve data dynamically. The application server communicates with the database server, such as MySQL, PostgreSQL, or MongoDB, to fetch or update information based on the user’s request.
+
+Finally, with all the necessary resources fetched and processed, the web server constructs the webpage and sends it back to your browser over the established TCP connection. Your browser then interprets the received HTML, CSS, and JavaScript to render the webpage on your screen, completing the journey from URL to a fully rendered page.
+
+Next time you enter a URL into your browser, remember the intricate dance of protocols, servers, and systems working tirelesslybehind the scenes to deliver the digital experiences we often take for granted.
